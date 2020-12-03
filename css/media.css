@@ -1,0 +1,367 @@
+@media(max-width: 1100px){
+    .testiomanial-inner{
+        display: inline-block;
+        width: 100%;
+    }
+    .testimonial-img{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .test-img-item{
+        flex-basis: 50%;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 1070px){
+    .more-content{
+        display: block;
+    }
+    .block-top-title{
+        margin-top: 30px;
+    }
+    .left-block{
+        margin: 0 auto;
+    }
+    .right-block{
+        max-width: 100%;
+    }
+    .select-bottles select{
+        width: 100%;
+    }
+    .add-cart{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text-video{
+        flex-direction: column;
+    }
+    .text{
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+    .text1{
+        margin-bottom: 0;
+    }
+
+    .why-middle{
+        flex-flow: wrap;
+    }
+    .why-middle-items{
+        max-width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .main-inner{
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+    .main-inner-item{
+        margin: 20px;
+    } 
+
+    #macronutreins .block-img,
+    #vitamins .block-img,
+    #minerals .block-img{
+        display: none;
+    }
+    .block-macronutreins:after{
+        content: none;
+    }
+
+    input[type="email"]{
+        padding-right: 164px;
+    }
+
+    .nutritional-middle:before,
+    .nutritional-middle:after{
+        content: none;
+    }
+    .nutritional-middle{
+        padding: 0 20px;
+    }
+   
+
+}
+
+@media(max-width: 900px){
+    .nutritional-middle{
+        display: none;
+    }
+    .nutritional-inner{
+        justify-content: space-around;
+    }
+    .left-two{
+        padding-right: 75px;
+    }
+    .left-two:after{
+        right: 0;
+    }
+
+    .right-one:before{
+        top: 11%;
+    }
+    .right-two{
+        padding-left: 75px;
+    }
+    .right-two:before{
+        top: 38%;
+        left: 0;
+    }
+    .right-three:before{
+        top: 12%;
+    }
+}
+
+@media(max-width: 768px){
+    td{
+        padding-right: 90px;
+    }
+
+    input[type="email"]{
+        padding-right: 0px;
+        width: 100%;
+    }
+    .btn{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .nutritional-inner{
+        display: block;
+    }
+    .nutritional-left,
+    .nutritional-right{
+        max-width: 100%;
+        min-height: auto;
+        flex-direction: row;
+    } 
+    .nutritional-right{
+        margin: 30px 0px;
+    }
+    .left-one-title,
+    .left-two-title,
+    .left-three-title,
+    .left-one-text,
+    .left-two-text,
+    .left-three-text,
+    .right-one-title, 
+    .right-two-title, 
+    .right-three-title, 
+    .right-one-text, 
+    .right-two-text, 
+    .right-three-text{
+        text-align: center;
+    }
+    .left-one,
+    .left-two, 
+    .left-three{
+        padding-right: 0;
+         width: 33%; 
+        padding-top: 75px;
+    }
+    .right-one,
+    .right-two, 
+    .right-three{
+        padding-left: 0;
+         width: 33%; 
+        padding-top: 75px;
+    }
+    .left-one:after,
+    .left-two:after,
+    .left-three:after{
+        top: 0;
+        right: 36%;
+    }
+    .right-one:before,
+    .right-two:before,
+    .right-three:before{
+        top: 0px;
+        left: 36%;
+    }
+    
+}
+
+
+
+
+
+@media(max-width: 730px){
+    .footer-bottom-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-email{
+        margin: 30px 0px;
+    }
+
+   
+
+}
+
+@media(max-width: 642px){
+    .glycemic-title::before{
+        content: none;
+    }
+}
+
+@media(max-width: 600px){
+    
+    .header_content{
+        display: flex;
+    flex-direction: column;
+    }
+    .header_left{
+        order: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .header_logo{
+        order: 1;
+    }
+    .header_right{
+        order: 3;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    }
+
+    .more{
+        padding-top: 220px;
+    }
+
+    .one-subscribe{
+        flex-direction: column;
+    }
+    .one{
+        margin-bottom: 20px;
+    }
+    .add-cart{
+        flex-direction: column;
+    }
+    .add-cart-text{
+        padding: 0px 0px 20px 0px;
+    }
+    .select-bottles select{
+        padding-right: 0px;
+    }
+
+    .what{
+        padding: 60px 0px;
+            }
+    .video{
+        min-height: auto;
+    }
+    .video:before{
+        content: none;
+    }
+    .video:after{
+        content: none;
+    }
+
+    .why-middle-items{
+        max-width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .test-img-item{
+        flex-basis: 100%;
+        
+    }
+
+    td{
+        padding-right: 40px;
+    }
+
+    .nutritional-inner{
+        text-align: center;
+    }
+    .nutritional-left, 
+    .nutritional-right{
+        display: block;
+    }
+    .left-one, 
+    .left-two, 
+    .left-three,
+    .right-one, 
+    .right-two, 
+    .right-three{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .left-one:after, 
+    .left-two:after, 
+    .left-three:after{
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .right-one:before, 
+    .right-two:before, 
+    .right-three:before{
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+}
+
+
+@media(max-width: 472px){
+    .food-title:before{
+        content: none;
+    }
+    .food-title{
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 381px){
+    .text-title:before{
+        content: none;
+    }
+    .text-title{
+        padding-bottom: 20px;
+    }
+
+    .why-middle{
+        display: block;
+    }
+    .why-middle-items{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    td{
+        padding-right: 15px;
+    }
+
+    .nutritional-title:before{
+        content: none;
+    }
+    .nutritional-title{
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 341px){
+    .block-top-title:after{
+        content: none;
+    }
+    .one{
+        padding-right: 0;
+    }
+
+    
+}

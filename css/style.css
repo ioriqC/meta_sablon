@@ -1,0 +1,1294 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, li{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+background-color: #f0f6f4;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+position: fixed;
+top: 0;
+z-index: 1;
+width: 100%;
+} 
+
+body{
+    /*font-family: 'Bebas Neue', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    color: #41474d;
+    }
+
+
+/*Menu*/
+
+
+
+
+
+
+
+
+     .header_content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+        }
+    
+    .header a{
+            color: #121920;
+        }
+     
+    .header_left_cart{
+        padding-left: 30px;
+    }
+
+    .header_right_sign{
+        padding-left: 26px;
+    }
+    
+    .header_left_cart, .header_right_sign{
+        padding-right: 30px;
+        position: relative;
+    }
+
+    .header_left_cart:before{
+        content: url(../img/Shape1.png);
+        position: absolute;
+        left: 0;
+        color: #121920;
+    }
+
+    .header_right_sign:before{
+        content: url(../img/Shape2.png);
+        position: absolute;
+        left: 0;
+        color: #121920;
+
+    }
+
+    .header_right_btn{
+        border-radius: 6px;
+        background-color: #78bc61;
+        color: #ffffff !important;
+        font-weight: 700;
+        padding: 15px 20px;
+    } 
+
+    .more{
+        padding: 190px 0px 95px;
+        background-color: #ffffff;
+        background-image: linear-gradient(to top, rgba(229, 228, 215, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    }
+    .more-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right-block,
+    .left-block{
+        max-width: 554px;
+        
+    }
+
+    .block-top{
+        text-align: center;
+    }
+
+    .block-top-title{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .block-top-title:after{
+        position: absolute;
+        content: url(../img/Rectangle2.png);
+        top: 30px;
+        transform: translateX(-190px);
+    }
+
+    .block-top-text{
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .block-bottom-text{
+        color: #121920;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    .select-bottles{
+        max-width: 100%;
+        position: relative;
+    }
+
+    .select-bottles select{
+        display: block;
+        padding: 18px 380px 18px 21px;
+        border-radius: 6px;
+        border: 2px solid #e5e4d7;
+        background-color: #ffffff;
+        outline: none;
+        cursor: pointer;
+        color: #121920;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .one-subscribe{
+        padding: 25px 0px 44px;
+        display: flex;
+    }
+
+    .one{
+        padding-right: 150px;
+    }
+
+    .one, .subscribe{
+        position: relative;
+        padding-left: 60px;
+    }
+
+   .one img,
+   .subscribe img{
+       position: absolute;
+       left: 0;
+   }
+
+    
+   
+
+   
+    .one-first{
+        
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        color: #121920;
+    }
+    .one-second{
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        color: #878a8d;
+    }
+
+    .add-cart{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .add-cart-text{
+        padding-top: 21px;
+    }
+    .add-cart-text-first{
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+
+    }
+
+    .add-cart-btn{
+        border-radius: 6px;
+        background-color: #78bc61;
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        padding: 20px 60px;
+    }
+
+ 
+    .what{   
+    background-color:  #36c1ba;
+    min-height: 562px;
+    padding: 100px 0px;
+
+
+    }
+
+    .text-video{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text{
+        max-width: 357px;
+
+    }
+
+    .text-title{
+        color: #ffffff;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        padding-bottom: 40px;
+        position: relative;
+    }
+    .text-title:before{
+        position: absolute;
+        content: url(../img/Shape.png);
+        left: 45%;
+        top:40px;
+    }   
+
+    .text1, .text2{
+        font-size: 16px;
+        font-family: "Montserrat - Regular";
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: center;
+        color: #c4fffc;
+    }
+    .text1{
+        margin-bottom: 30px;
+    }
+
+    .video{
+        max-width: 654px;
+        min-height: 362px;
+        position: relative;
+
+    }
+    .video:before{
+        position: absolute;
+        content: url(../img/Forma.png);
+        left: 44%;
+        top: 36%;
+        
+    }
+    .video:after{
+        position: absolute;
+        content: 'Play video';
+        color: #feffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        right: 42%;
+        top: 60%;
+       
+    }
+    .video img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .why{
+        padding: 100px 0px;
+    }
+
+    .why-top-title{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        padding-bottom: 50px;
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    .why-top-title:before{
+        position: absolute;
+        content: url(../img/Rectangle2.png);
+        left: 48%;
+        top: 35px;
+    }
+
+    .why-top-text{
+        color: #41474d;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .why-middle{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+
+    .why-middle-items{
+        max-width: 165px;
+    }
+
+    .item-img{
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 165px;
+        height: 165px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .item-img img{
+        align-self: center;
+    }
+
+    .item1{
+        background-image: url(../img/sécurité-alimentaire.png);
+        background-color: #39ba82;
+
+    }
+    .item2{
+        background-image: url(../img/time.png);
+        background-color: #28c2d9;
+    }
+
+    .item3{
+        background-image: url(../img/everydollar.png);
+        background-color: #39b9b1;
+    }
+
+    .item4{
+        background-image: url(../img/family.png);
+        background-color: #f9727e;
+    }
+
+    .item5{
+        background-image: url(../img/shutterstock.png);
+        background-color: #ffc835;
+    }
+
+    .item6{
+        background-image: url(../img/hungry.png);
+        background-color: #db76fd;
+    }
+
+    .why-middle-items h2{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .why-middle-items p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        color: #41474d;
+        text-align: center;
+    }
+    
+    .why-bottom{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .why-bottom a{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #78bc61;
+        border-radius: 6px;
+        padding: 21px 54px;
+       
+    }
+
+    .testimonial{
+        padding: 79px 0px 100px;
+        background-color: #f0f6f4;
+    }
+    .testimonial-title{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+        position: relative;
+    }
+    .testimonial-title:before{
+        position: absolute;
+        content: url(../img/Rectangle2.png);
+        top: 30px;
+    
+
+    }
+    .testimonial-text{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+    }
+
+    .testimonial-img{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        
+    }
+
+    .test-img-item{
+        width: 263px;
+        height: auto;
+    }
+    
+
+
+    .main{
+        padding: 90px 0px;
+    }
+    .main-title{
+        padding-bottom: 30px;
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        position: relative;
+    }
+    .main-title:before{
+        position: absolute;
+        content: url(../img/Rectangle2.png);
+        top: 30px;
+        
+        transform: translateX(148px);
+    }
+
+    .main-text{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        color: #41474d;
+        text-align: center;
+    }
+
+    .main-inner{
+        padding-top: 42px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .main-inner-item{
+        max-width: 194px;
+
+    }
+    .inner-item-title{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: center;
+        padding: 15px 0px 25px;
+    }
+    .inner-item-text{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .nutritional{
+        background-color: #f0f6f4;
+        padding: 80px 0px 100px;
+    }
+    .nutritional-title{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        position: relative;
+        padding-bottom: 70px;
+    }
+    .nutritional-title:before{
+        position: absolute;
+        content: url(../img/Rectangle2.png);
+        top: 30px;
+        transform: translateX(170px);
+    }
+
+    .nutritional-inner{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .nutritional-left,
+    .nutritional-middle,
+    .nutritional-right{
+        max-width: 360px;
+        min-height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .left-one,
+    .left-three{
+        padding-right: 75px;
+        position: relative;
+    }
+    .left-two{
+        padding-right: 115px;
+        position: relative;
+    }
+    .right-one,
+    .right-three{
+        padding-left: 75px;
+        position: relative;
+    }
+    
+    .right-two{
+        padding-left: 115px;
+        position: relative;
+    }
+
+    .left-one:after{
+        position: absolute;
+        content: url(../img/mini2.png);
+        right: 0;
+        top: 0;
+    }
+    .left-two:after{
+        position: absolute;
+        content: url(../img/mini1.png);
+        right: 30px;
+        top: 20px;
+    }
+    .left-three:after{
+        position: absolute;
+        content: url(../img/mini5.png);
+        right: 0;
+        top: 0;
+    }
+
+    .right-one:before{
+        position: absolute;
+        content: url(../img/mini4.png);
+        left: 0;
+        top: 0;
+    }
+    .right-two:before{
+        position: absolute;
+        content: url(../img/mini3.png);
+        left: 30px;
+        top: 20px;
+    }
+    .right-three:before{
+        position: absolute;
+        content: url(../img/mini6.png);
+        left: 0;
+        top: 0;
+    }
+   
+
+    .left-one-title,
+    .left-two-title,
+    .left-three-title,
+    .right-one-title,
+    .right-two-title,
+    .right-three-title{
+        color: #121920;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        padding-bottom: 15px;
+        
+    }
+    .left-one-text,
+    .left-two-text,
+    .left-three-text,
+    .right-one-text,
+    .right-two-text,
+    .right-three-text{
+        color: #41474d;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        
+    }
+
+    .left-one-title,
+    .left-two-title,
+    .left-three-title,
+    .left-one-text,
+    .left-two-text,
+    .left-three-text{
+        text-align: right;
+    }
+
+
+    .right-one-title,
+    .right-two-title,
+    .right-three-title,
+    .right-one-text,
+    .right-two-text,
+    .right-three-text{
+        
+        text-align: left;
+    }    
+    
+
+    .nutritional-middle{
+        padding: 0px 115px;
+        position: relative;
+    }
+    .nutritional-middle:before{
+        position: absolute;
+        content: url(../img/Ellipse_left.png);
+        left: 0;
+
+    }
+    .nutritional-middle:after{
+        position: absolute;
+        content: url(../img/Ellipse_right.png);
+        right: 0px;
+    }
+
+    .nutritional-buttons{
+        display: flex;
+        flex-direction: column;
+        max-width: 210px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .nutritional-buttons a:nth-child(1){
+        text-decoration: revert;
+        color: #78bc61;
+    }
+    .nutritional-buttons a:nth-child(2){
+        border-radius: 6px;
+        background-color: #78bc61;
+        font-family: 'Montserrat', sans-serif;
+        padding: 23px 52px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .glycemic{
+        padding: 100px 0px;
+    }
+
+    .glycemic-inner{
+        max-width: 738px;
+        margin: 0 auto;
+        text-align: center;      
+            }
+    .glycemic-title{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        position: relative;
+        padding-bottom: 40px;
+    }        
+    .glycemic-title::before{
+        position: absolute;
+        content: url(../img/Rectangle2.png);
+        top: 30px;
+        left: 48%;
+
+    }
+    .glycemic-text{
+        color: #41474d;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .super-food{
+        background-color: #f0f6f4;
+        padding: 100px 0px;
+    }
+
+    .super-food-inner{
+            text-align: center;
+            }
+    
+   
+
+    .food-title{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .food-title:before{
+        position: absolute;
+        content: url(../img/Rectangle2.png);
+        top: 30px;
+        left: 48%;
+    }
+
+    .food-text{
+        color: #41474d;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .food-inner-elements{
+        display: flex;
+        justify-content: space-around;
+    }
+    .food-inner-elements span{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: center;
+    }
+    .food-inner-elements hr{
+        height: 3px;
+        width: 30px;
+        background-color: #121920;
+    }
+
+    #food-inner-one{
+        color: #36c1ba;
+    }
+    #hr-one{
+        width: 70px;
+        height: 3px;
+        background-color: #36c1ba;
+    }
+
+    .block-macronutreins{
+        display: flex;
+        background-color: #fff;
+        border-radius: 10px;
+        min-height: 509px;
+        position: relative;
+        margin-top: 40px;
+        padding: 40px 0px;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .block-macronutreins:before{
+        position: absolute;
+        content: url(../img/row.png);
+        left: 16%;
+        top: 0;
+        transform: translateY(-20px);
+    }
+
+    .block-img{
+        position: relative;
+        margin: 0px 120px;
+    }
+    .block-macronutreins:after{
+        position: absolute;
+        content: "What's inside?";
+        color: #121920;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        left: 80px;
+    }
+
+
+     td{
+        border-top: 1px solid#e7e8e8;;
+    }
+    th{
+        color: #121920;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+    }
+    td{
+        color: #41474d;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        padding: 10px 0px;
+        padding-right: 150px;
+    }
+    tr td:nth-child(1){
+        color: #36c1ba;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+    }
+    
+    #vitamins{
+        display: none;
+    }
+    #vitamins:before{
+        left: 50%;
+    }
+
+    #minerals{
+        display: none;
+    }
+    #minerals::before{
+        left: 82%;
+    }
+
+    .super-food-inner a{
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        padding: 23px 45px;
+        border-radius: 6px;
+        background-color: #78bc61;
+        margin-top: 40px;
+    }
+
+    .contact{
+        padding: 100px 0px;
+        text-align: center;
+    }
+
+    .contact-signup-title{
+        color: #121920;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .contact-signup-title:before{
+        position: absolute;
+        content: url(../img/Rectangle2.png);
+        left: 48%;
+        top: 30px;
+    }
+
+    .contact-signup-text{
+        color: #41474d;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        
+    }
+
+    .form{
+        padding-top: 50px;
+    }
+
+    input[type="email"]{
+        color: #121920;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: left;
+        padding: 16px 351px 16px 23px;
+        border-radius: 6px;
+        border: 2px solid #e5e4d7;
+        background-color: #ffffff;
+    }
+
+    .btn{
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: center;
+        background-color: #78bc61;
+        border-radius: 6px;
+        padding: 18px 58px;
+        border-color: transparent;
+        margin-left: 20px;
+
+    }
+
+    .footer-top{
+        background-color: #192632;
+        padding: 50px 0px;
+    }
+
+    ul.social-icons,
+    ul.social-page{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .social-icons li:nth-child(2){
+        margin: 0px 40px;
+    }
+
+    .footer-page{
+        padding-top: 20px;
+    }
+
+    ul.social-page li a{
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;        
+        text-align: center;
+        text-transform: uppercase;        
+        line-height: normal;
+    }
+
+    ul.social-page li:nth-child(2){
+        padding: 0px 60px;
+        position: relative;
+    }
+    ul.social-page li:nth-child(2):before{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 30px;
+        background-color: #f0f6f4;
+        opacity: 0.2;
+        left:30px;
+        transform: translateY(-5px);
+    }
+    ul.social-page li:nth-child(2):after{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 30px;
+        background-color: #f0f6f4;
+        opacity: 0.2;
+        right: 30px;
+        transform: translateY(-5px);
+    }
+
+    .footer-bottom{
+        background-color: #121920;
+        padding: 23px 0px;
+    }
+
+    .footer-copy{
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        padding-top: 30px;
+    }
+
+    .footer-bottom-inner{
+        display: block;
+    }
+
+    .footer-bottom-inner:after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    .footer-tel,
+    .footer-email{
+        display: inline-block;
+        padding-left: 56px;
+        position: relative;
+    }
+
+    .footer-tel{
+        padding-right: 32px;
+    }
+
+    .footer-tel:before{
+        position: absolute;
+        content: url(../img/tel.png);
+        left: 0px;
+
+    }
+
+    .footer-email:before{
+        position: absolute;
+        content: url(../img/email.png);
+        left: 0px;
+
+    }
+
+
+    .footer-tel a,
+    .footer-email a{
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        font-size: 18px;
+    }
+    .footer-tel p,
+    .footer-email p{
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        margin: 0;
+    }
+
+    .footer-btn{
+        float: right;
+        border-radius: 6px;
+        background-color: rgb(255,255,255,0.05);  
+        position: relative;    
+        }
+
+        .footer-btn:before{
+            position: absolute;
+            content: url(../img/eng.png);
+            left: 15px;
+            top: 14px;
+        }
+
+        .footer-btn:after{
+            position: absolute;
+            content: url(../img/row-down.png);
+            right: 14px;
+            top: 12px;
+        }
+
+    .footer-btn a{
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 16px 102px 11px 45px;
+    }
+       
+
+/*Cookies*/
+.cookie-banner {
+    display: flex;
+    background-color: #121920;
+    bottom: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;   
+    left: 50%;
+    padding: 26px 30px 23px;
+    position: fixed;
+    transform: translateX(-50%);
+    width: 60vw;
+    border-radius: 10px;
+  
+    }
+    input[type="button"] {
+      background-color: #78bc61;
+      border-radius: 6px;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: center;
+      padding: 0px 30px;
+      border: 0px;
+     
+  }
+
+  .cookie-banner p{
+      padding: 0px 30px;
+      position: relative;
+  }
+  .cookie-banner p:before{
+      position: absolute;
+      content: '!';
+      border: 1px solid #fff;
+      border-radius: 50%;
+      left: 0px;
+      padding: 7px;
+  }
